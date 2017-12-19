@@ -28,7 +28,7 @@ class PetsNew extends Component {
     return (
       <div>
         <h2>Add a Pet</h2>
-        <form onSubmit={this.handleOnSubmit} >
+        <form style={{ marginTop: '16px' }} onSubmit={this.handleOnSubmit} >
           <input
             type="text"
             placeholder="Name"
